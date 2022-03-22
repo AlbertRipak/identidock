@@ -1,0 +1,5 @@
+[cmd]docker run -d -p 5000:5000 identidock
+or
+(if you need mount directory)
+[bash]docker run -d -p 5000:5000 -v "$(pwd)"/app:/app identidock
+[bash] docker run -d --name idpy -p 9090:9191 -p 9191:9191 -v E:\Docker\identidock\app:/app identidock
